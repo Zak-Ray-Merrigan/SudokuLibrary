@@ -93,3 +93,20 @@ SudokuLibraryImplementation
 |---Client.cs # Feature execution
 |---GridEnumerator.cs # Helper class to Enumerate across solved Sudoku Grids
 |---Service.cs # Helper methods for enforcing Sudoku
+# How the Solver Works
+The solver uses a classic recursive backtracking algorithm:
+1. Find the next empty cell
+2. Try digits 1-n
+3. Check row, column, and sub-grid validity
+4. Recursively attempt to solve the board
+5. Backtrack when constraints fail  
+This approach guarantees correctness for valid puzzles and demonstrates the power of recursion and constraint checking.
+# Future Enhancements
+- improve efficiency
+- explore UI Integration (React/React Native + API)
+# Why This Project Matters
+This library represents the beginning of my algorithmic engineering journey. It helped me develop:
+- Stronger recursion intuition
+- Clean C# design habits
+- Confidence in tackling complex logic
+- A foundation for more advanced algorithmic work
