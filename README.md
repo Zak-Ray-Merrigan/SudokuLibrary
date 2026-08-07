@@ -81,3 +81,15 @@ This project strengthened several foundational engineering skills:
 - Structuring logic for readability
 - Testing solver correctness with known puzzles
 - Documenting algorithm behavior
+# Project Structure
+SudokuLibraryImplementation
+|
+|---Models
+|    |--- Column.cs # Column of a Sudoku Grid
+|    |--- Grid.cs # $n \times \n$ Grid represented as a 2D int Array
+|    |--- GridLocation.cs # States specific location on the grid
+|    |--- Row.cs # Row of a Sudoku Grid
+|    |--- Square.cs # Sub-grid relative to the entire grid
+|---Client.cs # Feature execution
+|---GridEnumerator.cs # Helper class to Enumerate across solved Sudoku Grids
+|---Service.cs # Helper methods for enforcing Sudoku
