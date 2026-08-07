@@ -22,9 +22,9 @@ While most Sudoku solvers focus exclusively on the standard **9×9 grid**, I bec
 
 Formally, I was interested in Sudoku grids of size:
 
-$$n \in \\{x \in \mathbb{N} \mid x \geq 4 \;\land\; \sqrt{x} \in \mathbb{N}\\}$$
+$$n \in \\{x \in N \mid x \geq 4 \;\land\; \sqrt{x} \in N\\}$$
 
-In other words, any $n \times n$ Sudoku grid where the subgrid size $\sqrt{n}$ is also an integer (e.g., 4×4, 9×9, 16×16).
+In other words, any $n \times n$ Sudoku grid where the sub-grid size $\sqrt{n}$ is also an integer (e.g., 4×4, 9×9, 16×16).
 
 This curiosity led to two core questions:
 
@@ -33,7 +33,7 @@ This curiosity led to two core questions:
    (i.e., listing or generating all valid completed boards for a given $n$)
 
 2. **Solving Problem:**
-   *Given an $n \times n$ Sudoku puzzle, how can we solve it to completion using generalized constraint-satisfaction algorithms?*
+   *Given an nxn Sudoku puzzle, how can we solve it to completion using generalized constraint-satisfaction algorithms?*
 
 The Sudoku Algorithms Library was built to explore these questions through structured C# implementations of:
 
