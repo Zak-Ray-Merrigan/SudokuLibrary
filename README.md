@@ -43,3 +43,17 @@ The Sudoku Algorithms Library was built to explore these questions through struc
 - generalized $n \times n$ board generation
 
 This project strengthened my foundations in algorithmic reasoning, recursion, and mathematical problem-solving while giving me a practical environment to apply concepts from combinatorics and discrete mathematics.
+# Key Features
+This library is designed to explore generalized Sudoku solving and enumeration for any valid grid size:  
+$$n \in \\{x \in N \mid x \geq 4 \;\land\; \sqrt{x} \in N\\}$$
+In other words, any $n \times n$ Sudoku grid where the sub-grid size $\sqrt{n}$ is also an integer (e.g., 4×4, 9×9, 16×16).  
+The project supports two core capabilities:
+1. **List All Solved $n \times n$ Sudoku Grids**
+Generate or enumerate all fully solved Sudoku boards for a given valid dimension 𝑛. This feature explores the combinatorial structure of Sudoku and the mathematical question: "How many distinct completed Sudoku grids exist for a given n?
+2. **Solving Any Valid $n \times n$ Sudoku Grid to Completion**
+Solve generalized Sudoku puzzles using recursive backtracking and constraint‑satisfaction logic. The solver:
+- Handles arbitrary valid grid sizes
+- Applies row, column, and sub-grid constraints
+- Uses depth-first search and backtracking
+- Guarantees correctness for valid puzzles  
+This feature addresses the mathematical question: "Given an $n \times n$ Sudoku puzzle, how can we solve it to completion using generalized algorithms?"
