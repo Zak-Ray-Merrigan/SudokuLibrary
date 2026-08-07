@@ -57,3 +57,27 @@ Solve generalized Sudoku puzzles using recursive backtracking and constraint‑s
 - Uses depth-first search and backtracking
 - Guarantees correctness for valid puzzles  
 This feature addresses the mathematical question: "Given an $n \times n$ Sudoku puzzle, how can we solve it to completion using generalized algorithms?"
+# Technical Focus & Learning
+This project strengthened several foundational engineering skills:
+
+**Algorithmic Reasoning**
+- Recursive backtracking
+- Depth‑first search
+- Constraint satisfaction
+- Grid traversal logic
+- State exploration and pruning  
+**C# Fundamentals**
+- Class design
+- Encapsulation
+- Static utility methods
+- Clean separation of solver vs. board representation  
+**Data Structures**
+- 2D arrays
+- Sub-grid partitioning
+- Index arithmetic
+- Validity checking patterns
+**Software Engineering Habits**
+- Writing reusable library code
+- Structuring logic for readability
+- Testing solver correctness with known puzzles
+- Documenting algorithm behavior
