@@ -22,7 +22,7 @@ While most Sudoku solvers focus exclusively on the standard **9×9 grid**, I bec
 
 Formally, I was interested in Sudoku grids of size:
 
-$$n \in \{x \in N \mid x \geq 4 \;\land\; \sqrt{x} \in N\}$$
+$$n \in \\{x \in N \mid x \geq 4 \;\land\; \sqrt{x} \in N\\}$$
 
 In other words, any $n \times n$ Sudoku grid where the subgrid size $\sqrt{n}$ is also an integer (e.g., 4×4, 9×9, 16×16).
 
