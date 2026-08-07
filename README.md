@@ -86,7 +86,7 @@ SudokuLibraryImplementation
 |  
 |---Models  
 |    |--- Column.cs # Column of a Sudoku Grid  
-|    |--- Grid.cs # $n \times \n$ Grid represented as a 2D int Array  
+|    |--- Grid.cs # $n \times n$ Grid represented as a 2D int Array  
 |    |--- GridLocation.cs # States specific location on the grid  
 |    |--- Row.cs # Row of a Sudoku Grid  
 |    |--- Square.cs # Sub-grid relative to the entire grid  
